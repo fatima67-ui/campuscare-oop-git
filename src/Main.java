@@ -141,4 +141,6 @@ public static void updateStatus() {
     }
 
     IO.println("Ticket not found!");
+    System.out.println("Total tickets: " + tickets.size());
+
 }
