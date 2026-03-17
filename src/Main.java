@@ -121,6 +121,7 @@ public static void viewTickets() {
 
 // 🔹 Update Status
 public static void updateStatus() {
+    System.out.println("=== Update Ticket Status Feature ===");
     IO.print("Enter Ticket ID: ");
     int id = sc.nextInt();
 
