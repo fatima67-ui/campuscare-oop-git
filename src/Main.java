@@ -10,7 +10,7 @@ static List<Ticket> tickets = new ArrayList<>();
 static Scanner sc = new Scanner(System.in);
 
 void main() {
-
+    System.out.println("Welcome to CampusCare System");
     while (true) {
         IO.println("\n--- CampusCare Menu ---");
         IO.println("1. Add Person");
